@@ -1,0 +1,28 @@
+ALTER TABLE "karyawan" DROP CONSTRAINT IF EXISTS "karyawan_fk0";
+
+ALTER TABLE "operasional" DROP CONSTRAINT IF EXISTS "operasional_fk0";
+
+ALTER TABLE "operasional" DROP CONSTRAINT IF EXISTS "operasional_fk1";
+
+ALTER TABLE "Barang" DROP CONSTRAINT IF EXISTS "Barang_fk0";
+
+ALTER TABLE "Barang" DROP CONSTRAINT IF EXISTS "Barang_fk1";
+
+ALTER TABLE "Barang" DROP CONSTRAINT IF EXISTS "Barang_fk2";
+
+ALTER TABLE "Barang" DROP CONSTRAINT IF EXISTS "Barang_fk3";
+
+ALTER TABLE "transaksi" DROP CONSTRAINT IF EXISTS "transaksi_fk0";
+
+ALTER TABLE "transaksi" DROP CONSTRAINT IF EXISTS "transaksi_fk1";
+
+ALTER TABLE "transaksi" DROP CONSTRAINT IF EXISTS "transaksi_fk2";
+
+ALTER TABLE "transaksi" DROP CONSTRAINT IF EXISTS "transaksi_fk3";
+
+ALTER TABLE "transaksi" DROP CONSTRAINT IF EXISTS "transaksi_fk4";
+
+ALTER TABLE "keuangan" DROP CONSTRAINT IF EXISTS "keuangan_fk0";
+
+ALTER TABLE "pembeli" DROP CONSTRAINT IF EXISTS "pembeli_fk0";
+
